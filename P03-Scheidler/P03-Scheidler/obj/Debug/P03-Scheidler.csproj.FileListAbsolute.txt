@@ -1,0 +1,9 @@
+C:\Users\Josh\Documents\Visual Studio 2012\Projects\C#\projects\P03-Scheidler\P03-Scheidler\bin\Debug\P03-Scheidler.exe.config
+C:\Users\Josh\Documents\Visual Studio 2012\Projects\C#\projects\P03-Scheidler\P03-Scheidler\bin\Debug\P03-Scheidler.exe
+C:\Users\Josh\Documents\Visual Studio 2012\Projects\C#\projects\P03-Scheidler\P03-Scheidler\bin\Debug\P03-Scheidler.pdb
+C:\Users\Josh\Documents\Visual Studio 2012\Projects\C#\projects\P03-Scheidler\P03-Scheidler\obj\Debug\P03-Scheidler.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\Visual Studio 2012\Projects\C#\projects\P03-Scheidler\P03-Scheidler\obj\Debug\P03_Scheidler.Form1.resources
+C:\Users\Josh\Documents\Visual Studio 2012\Projects\C#\projects\P03-Scheidler\P03-Scheidler\obj\Debug\P03_Scheidler.Properties.Resources.resources
+C:\Users\Josh\Documents\Visual Studio 2012\Projects\C#\projects\P03-Scheidler\P03-Scheidler\obj\Debug\P03-Scheidler.csproj.GenerateResource.Cache
+C:\Users\Josh\Documents\Visual Studio 2012\Projects\C#\projects\P03-Scheidler\P03-Scheidler\obj\Debug\P03-Scheidler.exe
+C:\Users\Josh\Documents\Visual Studio 2012\Projects\C#\projects\P03-Scheidler\P03-Scheidler\obj\Debug\P03-Scheidler.pdb
