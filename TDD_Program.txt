@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PrintDiamond
+{
+    public class Diamond
+    {
+        public static string[] Print(char input)
+        {
+            string[] result = new string[51];
+            if(CheckIfValid(input))
+            {
+                int numLetters = Char.ToUpper(input) - 'A';
+                int lineNum = 0;
+
+                for (int i = 0; i <= numLetters; i++)
+                {
+                    result[lineNum] = Next_Line(numLetters, i);
+                    lineNum++;
+                }
+
+            
+                for (int i = lineNum-2; i >= 0; i--)
+                {
+                    result[lineNum] = Next_Line(numLetters, i);
+                    lineNum++;
+                }
+                return result;
+            }
+
+            result[0] = "Error! Invalid Input.";
+
+            return result;
+        }
+
+        private static string Next_Line (int numLetters, int i)
+        {
+            string nextline = "";
+            string outerSpaces = "";
+            string innerSpaces = " ";
+            char nextLetter;
+                
+            for (int j = 0; j < numLetters - i; j++)
+            {
+                outerSpaces += " ";
+            }
+            for (int j = 1; j < i; j++)
+            {
+                innerSpaces += "  ";
+            }
+
+            nextLetter = (char)('A' + i);
+
+            if (i > 0)
+                nextline = outerSpaces + nextLetter + innerSpaces +
+                                nextLetter + outerSpaces;
+            else
+                nextline = outerSpaces + nextLetter + outerSpaces;
+
+
+            return nextline;
+        }
+
+        private static bool CheckIfValid(char input)
+        {
+            if (input >= 'a' && input <= 'z')
+                return true;
+            if (input >= 'A' && input <= 'Z')
+                return true;
+
+            return false;
+        }
+    }
+}
